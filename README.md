@@ -30,7 +30,7 @@ I have created an AudioManager to play sounds. And GameManager is mostly used to
 It is appropriate because it you only have to reference fruit when you have multiple types of fruit
 ### Implementation
 <!-- Describe how the Factory pattern is implemented in your project. -->
-It is used to instantiate different types of fruit on the scene.
+It is used to instantiate different types of fruit on the scene. The GameManager makes more food when the player scores.
 ---
 # References
 ---

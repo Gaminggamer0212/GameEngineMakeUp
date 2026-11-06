@@ -754,6 +754,39 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &823265445 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3070096112123099834, guid: 5a265374130a3ae47a52b4a2da259208, type: 3}
+  m_PrefabInstance: {fileID: 1273459580}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b768033d83a3704884f5a7ea5922fb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AppleSpawner
+--- !u!114 &853033459 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3070096112123099834, guid: 5a265374130a3ae47a52b4a2da259208, type: 3}
+  m_PrefabInstance: {fileID: 4830918506893031139}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b768033d83a3704884f5a7ea5922fb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AppleSpawner
+--- !u!114 &1228645158 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3412555987494755807, guid: 46f2dbb77e7caee4f97f23eaa443d156, type: 3}
+  m_PrefabInstance: {fileID: 1397005232}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b768033d83a3704884f5a7ea5922fb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AppleSpawner
 --- !u!1001 &1273459580
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1069,6 +1102,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   currentScore: 0
+  spawners:
+  - {fileID: 853033459}
+  - {fileID: 6799122847583134817}
+  - {fileID: 1228645158}
+  - {fileID: 823265445}
 --- !u!82 &1800648988
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1524,7 +1562,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7444221671728083767, guid: 46f2dbb77e7caee4f97f23eaa443d156, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.19582
+      value: 5.24
       objectReference: {fileID: 0}
     - target: {fileID: 7444221671728083767, guid: 46f2dbb77e7caee4f97f23eaa443d156, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1567,6 +1605,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46f2dbb77e7caee4f97f23eaa443d156, type: 3}
+--- !u!114 &6799122847583134817 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3412555987494755807, guid: 46f2dbb77e7caee4f97f23eaa443d156, type: 3}
+  m_PrefabInstance: {fileID: 5476701619520529995}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b768033d83a3704884f5a7ea5922fb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AppleSpawner
 --- !u!1001 &9010830815530974547
 PrefabInstance:
   m_ObjectHideFlags: 0
