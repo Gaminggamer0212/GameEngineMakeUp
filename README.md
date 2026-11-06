@@ -8,9 +8,10 @@
 ### Description
 <!-- Briefly describe the classes, their relationships, and how object-oriented
 programming principles are demonstrated in your implementation. -->
-Inheritance and polymorphism are done using the food class and their respective spawners. There is a generic food class where every other types of food like orange and apple are inheriting from. (just noticed i called it food instead of fruit)
+Inheritance and polymorphism are done using the food class and their respective spawners. There is a generic food class where every other types of food like orange and apple are inheriting from. (just noticed i called it food instead of fruit) Calls a different debug log for now.
 ## UML Diagram
 <!-- Attach your UML diagram here -->
+![image](GameEngineMakeUp/UML.png)
 ---
 # Singleton Pattern
 ---
