@@ -45,7 +45,7 @@ public class PlayerController : MonoBehaviour
         rb.linearVelocity = playerSpeed *  moveDirection;
     }
 
-    void Eat()
+    public void Eat()
     {
         AudioManager.Instance.PlaySound(eatSound);
         GameManager.Instance.AddScore(10);
